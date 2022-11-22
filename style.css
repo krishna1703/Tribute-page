@@ -1,0 +1,152 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+ul1 {
+    display: flex;
+    background-color: rgb(138, 130, 201);
+    padding-left: 100px
+}
+
+
+ul1:hover {
+    background-color: rgb(118, 106, 207);
+    ;
+}
+
+li1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    list-style: none;
+    margin: 15px 40px;
+    color: antiquewhite;
+    font-size: x-large;
+    font-family: cursive;
+    cursor: pointer;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+li1:hover {
+    color: #9fb1b1;
+}
+
+.left:hover {
+    color: rgb(91, 76, 76);
+}
+
+.pic1 {
+    display: flex;
+    flex-direction: row;
+    background-color: #c6cba4;
+    padding-left: 150px;
+}
+
+.left {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 140px;
+    font-family: cursive;
+    color: palevioletred;
+}
+
+.right {
+    margin-left: 200px;
+    margin-right: 100px;
+    margin-top: 4px;
+}
+
+.Biography {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-size: xx-large;
+    font-family: cursive;
+    color: rgb(41, 43, 45);
+    background-color: #dbdfd1;
+    padding-left: 250px;
+}
+
+
+
+
+.bio {
+    display: flex;
+    flex-direction: row;
+    margin-left: 200px;
+
+}
+
+.left1 img {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    margin-top: 35px;
+}
+
+.left1 img:hover {
+    border-radius: 30%;
+}
+
+.right1 p {
+    width: 800px;
+    height: 300px;
+    line-height: 1.8;
+    padding: 20px;
+    font-size: 20px;
+    margin-top: 5px;
+    margin-left: 25px;
+    color: black;
+}
+
+h2 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: xx-large;
+}
+
+.hit-movies {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(222, 222, 165);
+    width: 100%;
+    height: 450px;
+
+}
+
+.movies-left {
+    display: inline-block;
+    flex-direction: column;
+    align-items: center;
+}
+
+.movies-column {
+    display: inline-block;
+    padding-left: 90px;
+    padding-bottom: 50px;
+
+}
+
+.movies-column img {
+    width: 250px;
+    height: 250px;
+}
+
+.movies-column li {
+    text-align: center;
+    width: 110px;
+    font-family: sans-serif;
+    list-style: none;
+    padding: 15px;
+    font-size: medium;
+    font-style: bold;
+}
+
+ul {
+    background-color: aquamarine;
+}
